@@ -113,14 +113,6 @@ node_t *S() {
             currentToken.instance.at(0) == ')') {
             sTreeRoot->token2 = currentToken;
             currentToken = scanner();
-            // Check if S is called again by checking First Set: ", (
-            // if (!currentToken.instance.empty() &&
-            //         currentToken.instance.at(0) == '"' ||
-            //     !currentToken.instance.empty() &&
-            //         currentToken.instance.at(0) == '(') {
-            //     // Call S again: S -> A ( B B )
-            //     S();
-            // }
             return sTreeRoot;
         }
         // Language expecting ')'

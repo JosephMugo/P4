@@ -4,6 +4,7 @@
     "*.html": "html",
     "*.jsx": "javascriptreact",
     "*.js": "javascriptreact",
-    "xhash": "cpp"
+    "xhash": "cpp",
+    "utility": "cpp"
   }
 }
