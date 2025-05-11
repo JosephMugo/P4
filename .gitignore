@@ -1,0 +1,7 @@
+*.docx
+*.exe
+*.txt
+*.o
+*.levelorder
+*.postorder
+*.preorder
