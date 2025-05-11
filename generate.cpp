@@ -64,6 +64,7 @@ std::string processIdentifier(const std::string& id) {
     return processed;
 }
 
+/* OR1 */
 void generateCode(node_t* node) {
     if (!node) return;
 
@@ -190,3 +191,5 @@ void generateProgram(node_t* root, const std::string& filename) {
 
     outFile.close();
 }
+
+/* OR1 */

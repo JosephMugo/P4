@@ -121,10 +121,4 @@ void traverseTree(node_t *root) {
     traverseTree(root->child5);
 }
 
-void staticSemantics(node_t *root) {
-    traverseTree(root);
-    // Print items in table
-    for (const auto &item : sTable) {
-        std::cout << item.first << "\n";
-    }
-}
+void staticSemantics(node_t *root) { traverseTree(root); }
